@@ -7,7 +7,13 @@
 
 ## What does this app do?
 
-- This is a basic To-Do app with Add and Delete functions
+- This is a basic To-Do app with Add and Delete functions.
+
+## UI Work:
+
+- We have to use codepen for UI work
+- Here is the link for codepen design I used:
+    https://codepen.io/JohnPaulFich/pen/MXmzzM
 
 ## Technologies used:
 
