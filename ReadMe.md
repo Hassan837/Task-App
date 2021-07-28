@@ -27,4 +27,6 @@ open index.html in your browser.
 
 https://github.com/Hassan837/Task-App
 
-Live Link:
+## Live Link:
+
+https://hassan837.github.io/Task-App/
