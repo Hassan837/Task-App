@@ -1,5 +1,5 @@
 body {
-	background: #b26bdb;
+	background-color: #b26bdb;
 	opacity: 1;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
@@ -11,14 +11,13 @@ body {
 }
 
 h1 {
-	color: #ffffff;
+	color: #0f0404;
 	text-transform: uppercase;
 	font-weight: 800;
 }
 
-p {
-	font-weight: 600;
-}
+
+
 
 #first {
 	margin-top: 10px;
@@ -26,39 +25,48 @@ p {
 }
 
 
-
-
-
 .enter {
-	font-size: 25px;
+	font-size: 27px;
+    padding: 5px 22px;
+    padding-top: 8px;
     min-height: 40px;
     min-width: 5%;
-	border: none;
-	padding: 5px 15px;
+
 	border-radius: 5px;
-	color: #080808;
-	background-color: #025F70;
-	transition: all 0.75s ease;
-	-webkit-transition: all 0.75s ease;
-	-moz-transition: all 0.75s ease;
-	-ms-transition: all 0.75s ease;
-	-o-transition: all 0.75 ease;
-	font-weight: normal;
+    color: #080808;
+    background-color: #025F70;
+    font-weight: normal;
+    border: none;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75 ease;
 }
+
 
 .enter:hover{
 	background-color: #02798F;
 	color: #FFCD5D;
 }
 
-ul {
-	text-align: left;
-	margin-top: 20px;
+.inputText {
+	font-size: 30px;
+    min-height: 30px;
+	border-radius: 5px;
+	min-width: 65%;
+	padding: 5px;
+	border: none;
 }
 
-
-li {
-	list-style: none;
+.afterinputText {
+	font-size: 30px;
+    min-height: 30px;
+	margin: 13px 14.5%;
+	min-width: 65%;
+	text-align: left;
+	
+ list-style: auto;
 	padding: 10px 20px;
 	color: #ffffff;
 	text-transform: capitalize;
@@ -72,36 +80,28 @@ li {
 	-moz-transition: all 0.5s ease;
 	-ms-transition: all 0.5s ease;
 	-o-transition: all 0.5 ease;
+
 }
 
-li:hover {
-	background: #76CFE0;
-}
 
-li > button {
-   
-	font-weight: normal;
-	background: none;
-	border: none;
-	float: right;
-	color: #025f70;
-	font-weight: 800;
-}
-
-input {
-    min-height: 30px;
+.afterClick {
+	margin-bottom: 10px;
+		background: none;
+		border: none;
+		float: right;
+		color: #eb0d0d;
+		font-weight: 800;
+	font-size: 25px;
 	border-radius: 5px;
-	min-width: 65%;
-	padding: 5px;
-	border: none;
+    background-color: #0b08ad;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75 ease;
 }
 
-
-.done {
-	background: #51DF70 !important;
-	color: #00891E;
-}
-
-.delete {
-	display: none;
+.afterClick:hover{
+	background-color: #02798F;
+	color: #FFCD5D;
 }
